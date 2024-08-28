@@ -244,140 +244,183 @@
         }
     ],
     "artists": [
-        {
-          "id": 1,
-          "name": "John Doe",
-          "location": "New York, USA",
-          "dateOfBirth": "1970-01-01",
-          "description": "Abstract expressionist"
-        },
-        {
-          "name": "Jane Smith",
-          "location": "London, UK",
-          "dateOfBirth": "1980-02-15",
-          "description": "Contemporary sculptor"
-        },
-        {
-          "name": "Alice Johnson",
-          "location": "Paris, France",
-          "dateOfBirth": "1990-03-30",
-          "description": "Impressionist painter"
-        },
-        {
-          "name": "Bob Brown",
-          "location": "Tokyo, Japan",
-          "dateOfBirth": "1975-04-12",
-          "description": "Digital artist"
-        },
-        {
-          "name": "Carlos Garcia",
-          "location": "Madrid, Spain",
-          "dateOfBirth": "1985-05-28",
-          "description": "Street artist"
-        },
-        {
-          "name": "Emily Davis",
-          "location": "Berlin, Germany",
-          "dateOfBirth": "1995-06-05",
-          "description": "Photographer"
-        },
-        {
-          "name": "David Miller",
-          "location": "Rome, Italy",
-          "dateOfBirth": "1972-07-18",
-          "description": "Classical painter"
-        },
-        {
-          "name": "Sophia Wilson",
-          "location": "Sydney, Australia",
-          "dateOfBirth": "1988-08-21",
-          "description": "Mixed media artist"
-        },
-        {
-          "name": "Michael Clark",
-          "location": "Toronto, Canada",
-          "dateOfBirth": "1992-09-09",
-          "description": "Graphic designer"
-        },
-        {
-          "name": "Olivia Martinez",
-          "location": "Mexico City, Mexico",
-          "dateOfBirth": "1979-10-25",
-          "description": "Textile artist"
-        },
-        {
-          "name": "James Lee",
-          "location": "Seoul, South Korea",
-          "dateOfBirth": "1986-11-11",
-          "description": "Illustrator"
-        },
-        {
-          "name": "Sophia Gonzalez",
-          "location": "Rio de Janeiro, Brazil",
-          "dateOfBirth": "1998-12-03",
-          "description": "Ceramic artist"
-        },
-        {
-          "name": "Sebastian Wagner",
-          "location": "Moscow, Russia",
-          "dateOfBirth": "1974-01-16",
-          "description": "Performance artist"
-        },
-        {
-          "name": "Lily Thompson",
-          "location": "Dubai, UAE",
-          "dateOfBirth": "1983-02-29",
-          "description": "Installation artist"
-        },
-        {
-          "name": "Isabella Hernandez",
-          "location": "Mumbai, India",
-          "dateOfBirth": "1996-03-14",
-          "description": "Fiber artist"
-        },
-        {
-          "name": "Gabriel Schmidt",
-          "location": "Shanghai, China",
-          "dateOfBirth": "1971-04-27",
-          "description": "Video artist"
-        },
-        {
-          "name": "Charlotte King",
-          "location": "Cairo, Egypt",
-          "dateOfBirth": "1989-05-06",
-          "description": "Sound artist"
-        },
-        {
-          "name": "Daniel Meier",
-          "location": "Istanbul, Turkey",
-          "dateOfBirth": "1993-06-19",
-          "description": "Glass artist"
-        },
-        {
-          "name": "Amelia Dupont",
-          "location": "Buenos Aires, Argentina",
-          "dateOfBirth": "1978-07-02",
-          "description": "Printmaker"
-        },
-        {
-          "name": "Marco Rossi",
-          "location": "Johannesburg, South Africa",
-          "dateOfBirth": "1987-08-15",
-          "description": "Metalworker"
-        },
-        {
-          "name": "Elena Ricci",
-          "location": "Amsterdam, Netherlands",
-          "dateOfBirth": "1997-09-28",
-          "description": "Jewellery designer"
-        },
-        {
-          "name": "Yuki Tanaka",
-          "location": "Kyoto, Japan",
-          "dateOfBirth": "1975-10-10",
-          "description": "Calligrapher"
-        }
-      ],
+      {
+        "name": "John Doe",
+        "location": "New York, USA",
+        "dateOfBirth": "1970-01-01",
+        "description": "Abstract expressionist",
+        "id": 1,
+        "image": "https://randomuser.me/api/portraits/men/1.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "location": "London, UK",
+        "dateOfBirth": "1980-02-15",
+        "description": "Contemporary sculptor",
+        "id": 2,
+        "image": "https://randomuser.me/api/portraits/men/2.jpg"
+      },
+      {
+        "name": "Alice Johnson",
+        "location": "Paris, France",
+        "dateOfBirth": "1990-03-30",
+        "description": "Impressionist painter",
+        "id": 3,
+        "image": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      {
+        "name": "Bob Brown",
+        "location": "Tokyo, Japan",
+        "dateOfBirth": "1975-04-12",
+        "description": "Digital artist",
+        "id": 4,
+        "image": "https://randomuser.me/api/portraits/men/4.jpg"
+      },
+      {
+        "name": "Carlos Garcia",
+        "location": "Madrid, Spain",
+        "dateOfBirth": "1985-05-28",
+        "description": "Street artist",
+        "id": 5,
+        "image": "https://randomuser.me/api/portraits/men/5.jpg"
+      },
+      {
+        "name": "Emily Davis",
+        "location": "Berlin, Germany",
+        "dateOfBirth": "1995-06-05",
+        "description": "Photographer",
+        "id": 6,
+        "image": "https://randomuser.me/api/portraits/men/6.jpg"
+      },
+      {
+        "name": "David Miller",
+        "location": "Rome, Italy",
+        "dateOfBirth": "1972-07-18",
+        "description": "Classical painter",
+        "id": 7,
+        "image": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      {
+        "name": "Sophia Wilson",
+        "location": "Sydney, Australia",
+        "dateOfBirth": "1988-08-21",
+        "description": "Mixed media artist",
+        "id": 8,
+        "image": "https://randomuser.me/api/portraits/men/8.jpg"
+      },
+      {
+        "name": "Michael Clark",
+        "location": "Toronto, Canada",
+        "dateOfBirth": "1992-09-09",
+        "description": "Graphic designer",
+        "id": 9,
+        "image": "https://randomuser.me/api/portraits/men/9.jpg"
+      },
+      {
+        "name": "Olivia Martinez",
+        "location": "Mexico City, Mexico",
+        "dateOfBirth": "1979-10-25",
+        "description": "Textile artist",
+        "id": 10,
+        "image": "https://randomuser.me/api/portraits/men/10.jpg"
+      },
+      {
+        "name": "James Lee",
+        "location": "Seoul, South Korea",
+        "dateOfBirth": "1986-11-11",
+        "description": "Illustrator",
+        "id": 11,
+        "image": "https://randomuser.me/api/portraits/men/11.jpg"
+      },
+      {
+        "name": "Sophia Gonzalez",
+        "location": "Rio de Janeiro, Brazil",
+        "dateOfBirth": "1998-12-03",
+        "description": "Ceramic artist",
+        "id": 12,
+        "image": "https://randomuser.me/api/portraits/men/12.jpg"
+      },
+      {
+        "name": "Sebastian Wagner",
+        "location": "Moscow, Russia",
+        "dateOfBirth": "1974-01-16",
+        "description": "Performance artist",
+        "id": 13,
+        "image": "https://randomuser.me/api/portraits/men/13.jpg"
+      },
+      {
+        "name": "Lily Thompson",
+        "location": "Dubai, UAE",
+        "dateOfBirth": "1983-02-29",
+        "description": "Installation artist",
+        "id": 14,
+        "image": "https://randomuser.me/api/portraits/men/14.jpg"
+      },
+      {
+        "name": "Isabella Hernandez",
+        "location": "Mumbai, India",
+        "dateOfBirth": "1996-03-14",
+        "description": "Fiber artist",
+        "id": 15,
+        "image": "https://randomuser.me/api/portraits/men/15.jpg"
+      },
+      {
+        "name": "Gabriel Schmidt",
+        "location": "Shanghai, China",
+        "dateOfBirth": "1971-04-27",
+        "description": "Video artist",
+        "id": 16,
+        "image": "https://randomuser.me/api/portraits/men/16.jpg"
+      },
+      {
+        "name": "Charlotte King",
+        "location": "Cairo, Egypt",
+        "dateOfBirth": "1989-05-06",
+        "description": "Sound artist",
+        "id": 17,
+        "image": "https://randomuser.me/api/portraits/men/17.jpg"
+      },
+      {
+        "name": "Daniel Meier",
+        "location": "Istanbul, Turkey",
+        "dateOfBirth": "1993-06-19",
+        "description": "Glass artist",
+        "id": 18,
+        "image": "https://randomuser.me/api/portraits/men/18.jpg"
+      },
+      {
+        "name": "Amelia Dupont",
+        "location": "Buenos Aires, Argentina",
+        "dateOfBirth": "1978-07-02",
+        "description": "Printmaker",
+        "id": 19,
+        "image": "https://randomuser.me/api/portraits/men/19.jpg"
+      },
+      {
+        "name": "Marco Rossi",
+        "location": "Johannesburg, South Africa",
+        "dateOfBirth": "1987-08-15",
+        "description": "Metalworker",
+        "id": 20,
+        "image": "https://randomuser.me/api/portraits/men/20.jpg"
+      },
+      {
+        "name": "Elena Ricci",
+        "location": "Amsterdam, Netherlands",
+        "dateOfBirth": "1997-09-28",
+        "description": "Jewellery designer",
+        "id": 21,
+        "image": "https://randomuser.me/api/portraits/men/21.jpg"
+      },
+      {
+        "name": "Yuki Tanaka",
+        "location": "Kyoto, Japan",
+        "dateOfBirth": "1975-10-10",
+        "description": "Calligrapher",
+        "id": 22,
+        "image": "https://randomuser.me/api/portraits/men/22.jpg"
+      }
+    ],
       "tags": [
         { "id": 167382, "name": "Technology" },
         { "id": 947263, "name": "Innovation" },
