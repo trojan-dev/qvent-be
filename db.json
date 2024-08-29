@@ -1,471 +1,581 @@
 {
-    "events": [
-        {
-          "id": 1,
-          "name": "Tech Innovators Summit",
-          "location": "San Francisco, CA",
-          "date": "2024-09-15",
-          "time": "09:00 AM",
-          "tags": ["Technology", "Innovation", "Conference"],
-          "image": "https://example.com/images/tech-innovators-summit.jpg",
-          "artist": "John Doe",
-          "price": 850
-        },
-        {
-          "id": 2,
-          "name": "Global Music Fest",
-          "location": "Austin, TX",
-          "date": "2024-10-10",
-          "time": "04:00 PM",
-          "tags": ["Music", "Festival", "Live"],
-          "image": "https://example.com/images/global-music-fest.jpg",
-          "artist": "Jane Smith",
-          "price": 250
-        },
-        {
-          "id": 3,
-          "name": "Art & Culture Expo",
-          "location": "New York, NY",
-          "date": "2024-11-05",
-          "time": "11:00 AM",
-          "tags": ["Art", "Exhibition", "Culture"],
-          "image": "https://example.com/images/art-culture-expo.jpg",
-          "artist": "Alice Johnson",
-          "price": 400
-        },
-        {
-          "id": 4,
-          "name": "StartUp Grind",
-          "location": "Los Angeles, CA",
-          "date": "2024-09-25",
-          "time": "01:00 PM",
-          "tags": ["Business", "Networking", "Technology"],
-          "image": "https://example.com/images/startup-grind.jpg",
-          "artist": "Bob Brown",
-          "price": 600
-        },
-        {
-          "id": 5,
-          "name": "Food Truck Fiesta",
-          "location": "Portland, OR",
-          "date": "2024-08-22",
-          "time": "06:00 PM",
-          "tags": ["Food", "Festival", "Community"],
-          "image": "https://example.com/images/food-truck-fiesta.jpg",
-          "artist": "Carlos Garcia",
-          "price": 150
-        },
-        {
-          "id": 6,
-          "name": "Health & Wellness Expo",
-          "location": "Chicago, IL",
-          "date": "2024-10-20",
-          "time": "09:00 AM",
-          "tags": ["Health", "Wellness", "Exhibition"],
-          "image": "https://example.com/images/health-wellness-expo.jpg",
-          "artist": "Emily Davis",
-          "price": 300
-        },
-        {
-          "id": 7,
-          "name": "Comedy Night",
-          "location": "Las Vegas, NV",
-          "date": "2024-09-12",
-          "time": "08:00 PM",
-          "tags": ["Comedy", "Live", "Entertainment"],
-          "image": "https://example.com/images/comedy-night.jpg",
-          "artist": "David Miller",
-          "price": 450
-        },
-        {
-          "id": 8,
-          "name": "Film & Documentary Festival",
-          "location": "Seattle, WA",
-          "date": "2024-11-15",
-          "time": "03:00 PM",
-          "tags": ["Film", "Documentary", "Festival"],
-          "image": "https://example.com/images/film-documentary-festival.jpg",
-          "artist": "Sophia Wilson",
-          "price": 550
-        },
-        {
-          "id": 9,
-          "name": "Jazz Evening",
-          "location": "New Orleans, LA",
-          "date": "2024-12-10",
-          "time": "07:00 PM",
-          "tags": ["Music", "Jazz", "Live"],
-          "image": "https://example.com/images/jazz-evening.jpg",
-          "artist": "Michael Clark",
-          "price": 700
-        },
-        {
-          "id": 10,
-          "name": "Startup Pitch Day",
-          "location": "Boston, MA",
-          "date": "2024-09-30",
-          "time": "10:00 AM",
-          "tags": ["Business", "Startup", "Investment"],
-          "image": "https://example.com/images/startup-pitch-day.jpg",
-          "artist": "Olivia Martinez",
-          "price": 950
-        },
-        {
-          "id": 11,
-          "name": "Marathon for Charity",
-          "location": "New York, NY",
-          "date": "2024-11-20",
-          "time": "06:00 AM",
-          "tags": ["Sports", "Marathon", "Charity"],
-          "image": "https://example.com/images/marathon-for-charity.jpg",
-          "artist": "James Lee",
-          "price": 120
-        },
-        {
-          "id": 12,
-          "name": "Tech Talk Live",
-          "location": "San Francisco, CA",
-          "date": "2024-10-05",
-          "time": "05:00 PM",
-          "tags": ["Technology", "Talk", "Live"],
-          "image": "https://example.com/images/tech-talk-live.jpg",
-          "artist": "Sophia Gonzalez",
-          "price": 700
-        },
-        {
-          "id": 13,
-          "name": "Classical Music Concert",
-          "location": "Vienna, Austria",
-          "date": "2024-10-22",
-          "time": "07:30 PM",
-          "tags": ["Music", "Classical", "Concert"],
-          "image": "https://example.com/images/classical-music-concert.jpg",
-          "artist": "Sebastian Wagner",
-          "price": 480
-        },
-        {
-          "id": 14,
-          "name": "Winter Art Fair",
-          "location": "Toronto, Canada",
-          "date": "2024-12-05",
-          "time": "09:00 AM",
-          "tags": ["Art", "Fair", "Winter"],
-          "image": "https://example.com/images/winter-art-fair.jpg",
-          "artist": "Lily Thompson",
-          "price": 300
-        },
-        {
-          "id": 15,
-          "name": "Yoga Retreat",
-          "location": "Sedona, AZ",
-          "date": "2024-09-18",
-          "time": "08:00 AM",
-          "tags": ["Health", "Wellness", "Yoga"],
-          "image": "https://example.com/images/yoga-retreat.jpg",
-          "artist": "Isabella Hernandez",
-          "price": 950
-        },
-        {
-          "id": 16,
-          "name": "International Book Fair",
-          "location": "Frankfurt, Germany",
-          "date": "2024-10-17",
-          "time": "09:00 AM",
-          "tags": ["Books", "Literature", "Fair"],
-          "image": "https://example.com/images/international-book-fair.jpg",
-          "artist": "Gabriel Schmidt",
-          "price": 380
-        },
-        {
-          "id": 17,
-          "name": "Halloween Parade",
-          "location": "Salem, MA",
-          "date": "2024-10-31",
-          "time": "07:00 PM",
-          "tags": ["Holiday", "Halloween", "Parade"],
-          "image": "https://example.com/images/halloween-parade.jpg",
-          "artist": "Charlotte King",
-          "price": 110
-        },
-        {
-          "id": 18,
-          "name": "Christmas Market",
-          "location": "Berlin, Germany",
-          "date": "2024-12-01",
-          "time": "10:00 AM",
-          "tags": ["Holiday", "Christmas", "Market"],
-          "image": "https://example.com/images/christmas-market.jpg",
-          "artist": "Daniel Meier",
-          "price": 550
-        },
-        {
-          "id": 19,
-          "name": "New Year's Eve Gala",
-          "location": "Paris, France",
-          "date": "2024-12-31",
-          "time": "08:00 PM",
-          "tags": ["Holiday", "New Year", "Gala"],
-          "image": "https://example.com/images/new-years-eve-gala.jpg",
-          "artist": "Amelia Dupont",
-          "price": 900
-        },
-        {
-          "id": 20,
-          "name": "Culinary Workshop",
-          "location": "Rome, Italy",
-          "date": "2024-11-12",
-          "time": "02:00 PM",
-          "tags": ["Food", "Workshop", "Culinary"],
-          "image": "https://example.com/images/culinary-workshop.jpg",
-          "artist": "Marco Rossi",
-          "price": 400
-        },
-        {
-          "id": 21,
-          "name": "Fashion Week",
-          "location": "Milan, Italy",
-          "date": "2024-09-21",
-          "time": "09:00 AM",
-          "tags": ["Fashion", "Runway", "Week"],
-          "image": "https://example.com/images/fashion-week.jpg",
-          "artist": "Elena Ricci",
-          "price": 750
-        },
-        {
-          "id": 22,
-          "name": "Science Expo",
-          "location": "Tokyo, Japan",
-          "date": "2024-10-27",
-          "time": "10:00 AM",
-          "tags": ["Science", "Exhibition", "Technology"],
-          "image": "https://example.com/images/science-expo.jpg",
-          "artist": "Yuki Tanaka",
-          "price": 320
-        }
-    ],
-    "artists": [
-      {
-        "name": "John Doe",
-        "location": "New York, USA",
-        "dateOfBirth": "1970-01-01",
-        "description": "Abstract expressionist",
-        "id": 1,
-        "image": "https://randomuser.me/api/portraits/men/1.jpg"
-      },
-      {
-        "name": "Jane Smith",
-        "location": "London, UK",
-        "dateOfBirth": "1980-02-15",
-        "description": "Contemporary sculptor",
-        "id": 2,
-        "image": "https://randomuser.me/api/portraits/men/2.jpg"
-      },
-      {
-        "name": "Alice Johnson",
-        "location": "Paris, France",
-        "dateOfBirth": "1990-03-30",
-        "description": "Impressionist painter",
-        "id": 3,
-        "image": "https://randomuser.me/api/portraits/men/3.jpg"
-      },
-      {
-        "name": "Bob Brown",
-        "location": "Tokyo, Japan",
-        "dateOfBirth": "1975-04-12",
-        "description": "Digital artist",
-        "id": 4,
-        "image": "https://randomuser.me/api/portraits/men/4.jpg"
-      },
-      {
-        "name": "Carlos Garcia",
-        "location": "Madrid, Spain",
-        "dateOfBirth": "1985-05-28",
-        "description": "Street artist",
-        "id": 5,
-        "image": "https://randomuser.me/api/portraits/men/5.jpg"
-      },
-      {
-        "name": "Emily Davis",
-        "location": "Berlin, Germany",
-        "dateOfBirth": "1995-06-05",
-        "description": "Photographer",
-        "id": 6,
-        "image": "https://randomuser.me/api/portraits/men/6.jpg"
-      },
-      {
-        "name": "David Miller",
-        "location": "Rome, Italy",
-        "dateOfBirth": "1972-07-18",
-        "description": "Classical painter",
-        "id": 7,
-        "image": "https://randomuser.me/api/portraits/men/7.jpg"
-      },
-      {
-        "name": "Sophia Wilson",
-        "location": "Sydney, Australia",
-        "dateOfBirth": "1988-08-21",
-        "description": "Mixed media artist",
-        "id": 8,
-        "image": "https://randomuser.me/api/portraits/men/8.jpg"
-      },
-      {
-        "name": "Michael Clark",
-        "location": "Toronto, Canada",
-        "dateOfBirth": "1992-09-09",
-        "description": "Graphic designer",
-        "id": 9,
-        "image": "https://randomuser.me/api/portraits/men/9.jpg"
-      },
-      {
-        "name": "Olivia Martinez",
-        "location": "Mexico City, Mexico",
-        "dateOfBirth": "1979-10-25",
-        "description": "Textile artist",
-        "id": 10,
-        "image": "https://randomuser.me/api/portraits/men/10.jpg"
-      },
-      {
-        "name": "James Lee",
-        "location": "Seoul, South Korea",
-        "dateOfBirth": "1986-11-11",
-        "description": "Illustrator",
-        "id": 11,
-        "image": "https://randomuser.me/api/portraits/men/11.jpg"
-      },
-      {
-        "name": "Sophia Gonzalez",
-        "location": "Rio de Janeiro, Brazil",
-        "dateOfBirth": "1998-12-03",
-        "description": "Ceramic artist",
-        "id": 12,
-        "image": "https://randomuser.me/api/portraits/men/12.jpg"
-      },
-      {
-        "name": "Sebastian Wagner",
-        "location": "Moscow, Russia",
-        "dateOfBirth": "1974-01-16",
-        "description": "Performance artist",
-        "id": 13,
-        "image": "https://randomuser.me/api/portraits/men/13.jpg"
-      },
-      {
-        "name": "Lily Thompson",
-        "location": "Dubai, UAE",
-        "dateOfBirth": "1983-02-29",
-        "description": "Installation artist",
-        "id": 14,
-        "image": "https://randomuser.me/api/portraits/men/14.jpg"
-      },
-      {
-        "name": "Isabella Hernandez",
-        "location": "Mumbai, India",
-        "dateOfBirth": "1996-03-14",
-        "description": "Fiber artist",
-        "id": 15,
-        "image": "https://randomuser.me/api/portraits/men/15.jpg"
-      },
-      {
-        "name": "Gabriel Schmidt",
-        "location": "Shanghai, China",
-        "dateOfBirth": "1971-04-27",
-        "description": "Video artist",
-        "id": 16,
-        "image": "https://randomuser.me/api/portraits/men/16.jpg"
-      },
-      {
-        "name": "Charlotte King",
-        "location": "Cairo, Egypt",
-        "dateOfBirth": "1989-05-06",
-        "description": "Sound artist",
-        "id": 17,
-        "image": "https://randomuser.me/api/portraits/men/17.jpg"
-      },
-      {
-        "name": "Daniel Meier",
-        "location": "Istanbul, Turkey",
-        "dateOfBirth": "1993-06-19",
-        "description": "Glass artist",
-        "id": 18,
-        "image": "https://randomuser.me/api/portraits/men/18.jpg"
-      },
-      {
-        "name": "Amelia Dupont",
-        "location": "Buenos Aires, Argentina",
-        "dateOfBirth": "1978-07-02",
-        "description": "Printmaker",
-        "id": 19,
-        "image": "https://randomuser.me/api/portraits/men/19.jpg"
-      },
-      {
-        "name": "Marco Rossi",
-        "location": "Johannesburg, South Africa",
-        "dateOfBirth": "1987-08-15",
-        "description": "Metalworker",
-        "id": 20,
-        "image": "https://randomuser.me/api/portraits/men/20.jpg"
-      },
-      {
-        "name": "Elena Ricci",
-        "location": "Amsterdam, Netherlands",
-        "dateOfBirth": "1997-09-28",
-        "description": "Jewellery designer",
-        "id": 21,
-        "image": "https://randomuser.me/api/portraits/men/21.jpg"
-      },
-      {
-        "name": "Yuki Tanaka",
-        "location": "Kyoto, Japan",
-        "dateOfBirth": "1975-10-10",
-        "description": "Calligrapher",
-        "id": 22,
-        "image": "https://randomuser.me/api/portraits/men/22.jpg"
-      }
-    ],
+  "events": [
+    {
+      "id": "937e8011eedfc0f9680e322cfea68c1a",
+      "name": "Tech Innovators Summit",
+      "location": "San Francisco, CA",
+      "date": "2024-09-15",
+      "time": "09:00 AM",
       "tags": [
-        { "id": 167382, "name": "Technology" },
-        { "id": 947263, "name": "Innovation" },
-        { "id": 528394, "name": "Conference" },
-        { "id": 619375, "name": "Music" },
-        { "id": 283749, "name": "Festival" },
-        { "id": 759263, "name": "Live" },
-        { "id": 374859, "name": "Art" },
-        { "id": 826394, "name": "Exhibition" },
-        { "id": 194728, "name": "Culture" },
-        { "id": 536294, "name": "Business" },
-        { "id": 917365, "name": "Networking" },
-        { "id": 284937, "name": "Food" },
-        { "id": 638492, "name": "Community" },
-        { "id": 749263, "name": "Health" },
-        { "id": 183749, "name": "Wellness" },
-        { "id": 529384, "name": "Comedy" },
-        { "id": 917364, "name": "Entertainment" },
-        { "id": 283746, "name": "Film" },
-        { "id": 628394, "name": "Documentary" },
-        { "id": 749261, "name": "Jazz" },
-        { "id": 182739, "name": "Startup" },
-        { "id": 529382, "name": "Investment" },
-        { "id": 918374, "name": "Sports" },
-        { "id": 284935, "name": "Marathon" },
-        { "id": 639482, "name": "Charity" },
-        { "id": 759260, "name": "Talk" },
-        { "id": 374857, "name": "Classical" },
-        { "id": 826392, "name": "Concert" },
-        { "id": 194726, "name": "Winter" },
-        { "id": 536292, "name": "Fair" },
-        { "id": 917362, "name": "Yoga" },
-        { "id": 283744, "name": "Books" },
-        { "id": 628392, "name": "Literature" },
-        { "id": 182737, "name": "Halloween" },
-        { "id": 529380, "name": "Parade" },
-        { "id": 918372, "name": "Christmas" },
-        { "id": 284933, "name": "Market" },
-        { "id": 639480, "name": "New Year" },
-        { "id": 759258, "name": "Gala" },
-        { "id": 374855, "name": "Workshop" },
-        { "id": 826390, "name": "Culinary" },
-        { "id": 194724, "name": "Fashion" },
-        { "id": 536290, "name": "Runway" },
-        { "id": 917360, "name": "Week" },
-        { "id": 283742, "name": "Science" }
-      ]
+        "Technology",
+        "Innovation",
+        "Conference"
+      ],
+      "image": "https://picsum.photos/300/200?random=1",
+      "artist": "John Doe",
+      "price": 850,
+      "description": "ut tristique esse netus egestas anim faucibus dolore nulla ultricies et auctor sit vel leo laborum officia porta nec consequat massa malesuada tempor sint luctus sed est malesuada anim est fugiat ultricies amet Praesent porta sint id enim ex malesuada occaecat massa sint ornare et aliqua adipiscing fames velit consectetur veniam mauris luctus ultricies ante nulla lacinia enim habitant tristique adipiscing morbi commodo cupidatat lacinia nisi lectus sint auctor bibendum Fusce id et nulla egestas nibh habitant Lorem et ipsum in dolor pharetra minim vestibulum proident libero mollis ullamco nostrud tristique Duis enim Ut et quis senectus mollis labore anim culpa eiusmod consectetur egestas sagittis amet Ut suscipit eu vehicula mollis morbi voluptate quis nunc nostrud mollit fames fermentum do ut egestas consectetur ultrices Ut esse ac cillum tristique ultrices tristique ultrices ut ultrices ea in Integer aliqua ultrices Fusce ultrices voluptate id do Aliquam ac qui Fusce arcu consectetur labore vulputate Praesent libero ac veniam senectus sapien consectetur massa volutpat suscipit et Vivamus ullamco nostrud porta et sed habitant ultrices et in labore irure enim posuere et Nunc porta sit bibendum senectus velit Praesent Vivamus enim magna libero volutpat dolore mauris vel ultrices sit laboris irure consectetur vel tristique habitant et Etiam minim voluptate Fusce officia veniam luctus netus ex amet sunt in vel consequat et egestas porta elit magna orci senectus sint fugiat est lacus consectetur dolore labore ac auctor habitant lacus consectetur elit sapien deserunt vehicula fringilla malesuada fames eu in eu eu senectus ornare velit curae deserunt suscipit Praesent esse ipsum ultrices nunc ut fames ac in pariatur lacus ultrices nibh arcu et Lorem dolore magna ut cillum veniam orci ultrices aute ac deserunt fringilla turpis bibendum nulla nisi reprehenderit ut non Fusce ipsum netus sagittis ut libero ornare enim ultrices ornare lacus senectus in fermentum libero turpis egestas laboris officia Sed et morbi cillum Integer dolor vel voluptate pariatur ut aliquip pellentesque justo et dolore Vivamus esse enim malesuada Praesent malesuada ultrices pariatur ultricies eu ultrices dolore velit libero laborum esse eu irure nulla sagittis est irure sapien turpis ea at ex morbi consectetur dolor ut sit lacus anim tempor et laboris mollis nunc ultrices anim Vestibulum velit reprehenderit sint primis in malesuada habitant vehicula vel consectetur dolore ex dolore cillum fermentum ipsum eu id malesuada scelerisque enim ut et netus luctus tristique leo Duis mollit labore est vestibulum Nunc non Pellentesque ex deserunt in sit nisi Praesent libero curae sagittis libero cillum do Curabitur ullamco reprehenderit libero aliquip ad Ut tristique fermentum libero laborum Etiam Donec quis nulla lacinia suscipit tristique massa est deserunt ut Nunc"
+    },
+    {
+      "id": "f62a3ceeb9d91983f8aeb96528b42904",
+      "name": "Global Music Fest",
+      "location": "Austin, TX",
+      "date": "2024-10-10",
+      "time": "04:00 PM",
+      "tags": [
+        "Music",
+        "Festival",
+        "Live"
+      ],
+      "image": "https://picsum.photos/300/200?random=2",
+      "artist": "Jane Smith",
+      "price": 250,
+      "description": "ad et deserunt arcu vel morbi et id Ut ultricies adipiscing posuere fames quis vel ea vel senectus turpis sunt bibendum ultrices arcu ac ipsum in minim nisi anim id curae quis luctus pellentesque et proident et ad minim senectus Excepteur ipsum sunt nisi tristique turpis senectus ullamco tristique in primis libero vulputate ac ac mollit nisi et Vivamus et sapien egestas est cubilia Integer Vestibulum amet sagittis ullamco facilisis adipiscing nibh vel quis nec ac Duis Nunc bibendum velit Nullam voluptate labore velit est senectus nec mauris do Excepteur anim qui Donec sit tristique Curabitur et incididunt suscipit culpa at proident sit fermentum Integer nisi in in velit aliquip Etiam dolor ut velit ullamco occaecat aute eiusmod Ut pariatur facilisis in vehicula primis lectus sagittis Praesent irure morbi et volutpat Nullam anim nulla proident eu Pellentesque in mollis magna luctus turpis netus mollis primis Curabitur officia justo elementum ultricies elit at lacus at morbi adipiscing Etiam tincidunt elit ut et sagittis ac malesuada posuere malesuada lectus nec nec ipsum libero enim ipsum in orci minim fringilla scelerisque fringilla amet est erat et sit consectetur eu est laborum mollis velit fugiat dolore et ultrices habitant volutpat pharetra vehicula erat ipsum senectus ac et fermentum lacinia mollis officia sagittis et sed sint libero esse amet erat nec aliquip enim pellentesque mollit eiusmod in ut fringilla fringilla sit porta arcu id dolor erat bibendum in leo vehicula sint tristique ante qui habitant libero malesuada sit exercitation curae et in sagittis elit porta at ultricies commodo vehicula eiusmod Pellentesque quis fames tristique ipsum arcu sit morbi anim cupidatat mollis in scelerisque aute amet velit scelerisque adipiscing pellentesque egestas Nullam malesuada ac ac libero non non qui cubilia sit cillum id ornare nec fringilla vehicula eiusmod do Excepteur Aliquam suscipit ornare facilisis Nunc netus volutpat incididunt nulla voluptate Fusce habitant lacus ut occaecat sit vel ultricies est Nullam volutpat minim habitant velit turpis ultricies fringilla tristique fames amet nulla porta Excepteur laboris nunc sagittis in bibendum officia turpis volutpat ac laborum habitant suscipit justo proident ac eu ipsum enim Excepteur posuere Etiam eiusmod fugiat in tristique officia dolor est cubilia id laboris et bibendum ac Integer ad velit Integer aliqua Pellentesque amet dolor libero sagittis consectetur magna fermentum pellentesque ornare malesuada justo vehicula ultrices fringilla consectetur malesuada ut tempor malesuada curae ac vulputate proident enim faucibus aliqua in Curabitur lacus Nunc tristique Vivamus dolor anim nec mauris consectetur Nullam sagittis Donec malesuada commodo malesuada lacus mollis erat sagittis id dolore dolore est dolore ornare fugiat amet Nullam Lorem et malesuada Nullam dolore et sunt Vivamus arcu volutpat libero consectetur eiusmod sit suscipit ex primis Sed ac mollis ac Vestibulum erat lectus exercitation et quis dolore ac eu cupidatat lectus sagittis tincidunt"
+    },
+    {
+      "id": "0a5a6f662d0c5594f0923924e2896624",
+      "name": "Art & Culture Expo",
+      "location": "New York, NY",
+      "date": "2024-11-05",
+      "time": "11:00 AM",
+      "tags": [
+        "Art",
+        "Exhibition",
+        "Culture"
+      ],
+      "image": "https://picsum.photos/300/200?random=3",
+      "artist": "Alice Johnson",
+      "price": 400,
+      "description": "voluptate veniam labore malesuada ad vel mollis magna egestas dolor elit mauris fringilla non Fusce enim fames ad libero sagittis in Nunc ante magna pellentesque exercitation in tincidunt ornare Sed sagittis ad fames et proident fermentum fames Curabitur suscipit mollit Fusce Donec Fusce netus anim esse sint erat egestas libero minim fames occaecat nec ex tempor nec exercitation tristique Nunc at pariatur sagittis Etiam bibendum sit Vivamus nulla quis minim culpa in suscipit dolor vel senectus do et tristique vel dolor consequat commodo et culpa sint sit in anim cillum quis velit Duis quis et velit scelerisque sagittis reprehenderit lacinia at vestibulum mollit fugiat lacinia ornare tristique leo quis cupidatat leo vehicula faucibus et officia voluptate mollis turpis luctus do vehicula sagittis nunc consequat dolore eiusmod Ut sagittis Etiam libero ut Etiam ut ultrices arcu auctor Excepteur Lorem ultrices velit amet Excepteur aliquip ornare et nulla nunc primis mollis id ut et volutpat Nullam nulla morbi et vel morbi Fusce Sed reprehenderit veniam sapien libero veniam primis vel in ex et id egestas sint est arcu erat morbi consequat commodo ut voluptate irure fringilla sit in nec sapien velit Integer sit ornare egestas senectus cillum primis arcu Donec suscipit commodo auctor turpis amet Nunc occaecat fugiat sit ac libero eu auctor vulputate proident morbi Ut facilisis et et consequat ultrices in Lorem scelerisque vel habitant scelerisque Excepteur laborum Ut aute consectetur nec exercitation amet justo nulla ultricies Pellentesque tristique Aliquam curae consectetur Excepteur voluptate adipiscing ultrices enim vel turpis massa egestas minim netus qui magna senectus Etiam auctor esse consectetur dolore tincidunt ultrices vel ultrices qui sint velit eiusmod lectus non fames et leo malesuada tristique et sed libero sunt Excepteur Pellentesque laboris mollis proident exercitation lacus occaecat pariatur bibendum orci velit incididunt vel tristique auctor sit orci nec elit nulla dolore tristique sint id minim vel Nunc tristique nec Praesent incididunt est labore proident auctor proident sint occaecat Praesent nostrud Fusce erat pariatur Fusce qui orci mauris pariatur cillum fringilla mollis Praesent dolor aliqua elit vel laborum Ut Ut vulputate ultricies turpis minim occaecat enim fermentum turpis proident deserunt vestibulum aute elit"
+    },
+    {
+      "id": "49c2a388dabfaf55800ddf84295186af",
+      "name": "StartUp Grind",
+      "location": "Los Angeles, CA",
+      "date": "2024-09-25",
+      "time": "01:00 PM",
+      "tags": [
+        "Business",
+        "Networking",
+        "Technology"
+      ],
+      "image": "https://picsum.photos/300/200?random=4",
+      "artist": "Bob Brown",
+      "price": 600,
+      "description": "morbi turpis elit Ut nec et lacus ultrices primis pariatur sed libero Sed Vestibulum ut nec Nunc commodo bibendum tempor voluptate ac enim officia senectus turpis primis elit est elementum egestas Praesent libero vehicula adipiscing egestas enim pharetra minim sapien voluptate fermentum cubilia do Praesent senectus Excepteur ornare tincidunt Lorem Vivamus Curabitur mollis tristique fermentum ac ultrices nulla pariatur aliquip Ut fames tincidunt malesuada eu volutpat fringilla nibh proident pharetra fringilla velit ullamco egestas elit sit occaecat fames non reprehenderit ante Vivamus esse tempor ultrices Etiam veniam commodo vulputate in libero tincidunt facilisis libero volutpat Vestibulum at nostrud aliqua ultrices ac fugiat vel malesuada Integer ipsum est eu morbi in eu mollit Integer consectetur aute mollis nec sed cubilia fermentum laborum Vivamus ac enim adipiscing fames ipsum Pellentesque libero ut est consequat reprehenderit incididunt ultrices luctus Donec et nisi et Pellentesque malesuada consequat ut occaecat aliqua exercitation mollis est vel enim cubilia leo egestas officia Integer in ultrices nec vel ex Praesent dolore eu malesuada morbi in orci Praesent consectetur ac nibh est consectetur elementum ultrices malesuada in malesuada occaecat nec et erat Nullam ultrices vestibulum sit nulla habitant et bibendum occaecat laborum mollis sagittis bibendum habitant proident Duis ultrices facilisis Nullam do adipiscing nisi primis et fugiat nulla dolor sint turpis ut nec in Aliquam sed occaecat irure consectetur Duis Aliquam vestibulum ullamco et nunc luctus primis vel sed tristique habitant tempor sagittis bibendum proident libero cupidatat et lectus nisi habitant Nullam suscipit nostrud in voluptate Sed justo nec at libero turpis Integer eu cupidatat laboris malesuada ipsum mollis sunt labore scelerisque nunc est sed pariatur fames pellentesque vel fames turpis libero netus nulla ultricies libero pellentesque occaecat ea pellentesque ipsum Duis nunc laborum ornare est ad tincidunt tincidunt sed sint eu et libero Ut lacus ipsum erat velit Ut eu pharetra est fames dolor dolore minim sapien morbi scelerisque ipsum in et massa anim Nullam consectetur senectus officia scelerisque vel vestibulum reprehenderit non Duis orci fermentum egestas tincidunt Pellentesque senectus faucibus ac ad sint sagittis et et malesuada dolor et adipiscing et deserunt malesuada ac leo ex velit in egestas suscipit malesuada ultrices elementum qui pariatur"
+    },
+    {
+      "id": "a747862851a3431d98440ee712b43ba9",
+      "name": "Food Truck Fiesta",
+      "location": "Portland, OR",
+      "date": "2024-08-22",
+      "time": "06:00 PM",
+      "tags": [
+        "Food",
+        "Festival",
+        "Community"
+      ],
+      "image": "https://picsum.photos/300/200?random=5",
+      "artist": "Carlos Garcia",
+      "price": 150,
+      "description": "Vestibulum habitant sint fames ultricies amet dolore et et libero curae incididunt Aliquam id ipsum fringilla adipiscing voluptate Pellentesque fermentum erat id est et non mollit consectetur vehicula dolore dolore dolor malesuada anim arcu mauris et elit ultrices leo consectetur velit fames est curae malesuada Lorem mollit Nunc et malesuada mollit egestas porta sunt ultricies Donec dolor Vivamus est deserunt scelerisque libero libero amet sit mauris libero in cupidatat quis lacinia posuere ac quis aliquip occaecat consectetur ipsum pariatur amet Ut amet tristique ac non sint Donec ultricies tincidunt egestas enim auctor qui sagittis fames malesuada facilisis consectetur ipsum ipsum netus senectus ex id pariatur elit sunt Praesent sit in dolore Fusce in quis ipsum ex erat elementum qui Aliquam leo libero in amet consectetur non ut nostrud fugiat turpis lacus ultrices malesuada sunt exercitation sunt fermentum morbi velit laborum libero erat irure sunt ac justo sagittis voluptate culpa ex irure Praesent in Vivamus nisi luctus tristique tincidunt et ipsum volutpat ultrices Praesent eu ea libero vestibulum quis ultricies cupidatat fames quis veniam ut magna quis ac libero lectus dolore ultrices libero in libero ac amet enim vel nulla dolore do nec justo mollis Nullam faucibus deserunt Pellentesque dolor ac veniam nec habitant volutpat libero dolor ut ac malesuada occaecat ornare culpa facilisis irure Etiam ac nisi volutpat malesuada Pellentesque in nec reprehenderit egestas consectetur dolor ornare sapien laborum netus et vulputate Praesent ipsum Nullam ea eu dolore nulla ante vehicula officia est mollit turpis orci qui qui fringilla ad fames sapien nec Aliquam est et ad turpis Nullam ea id libero justo in consequat sit Ut nibh officia Excepteur culpa in reprehenderit sagittis sit fames habitant commodo ultrices Aliquam qui ac volutpat anim exercitation curae aliqua primis cillum Ut reprehenderit mauris do ac primis tincidunt et Fusce Vestibulum libero Vivamus Nullam adipiscing cupidatat irure et Lorem ut laboris nec adipiscing eu ipsum cillum in pellentesque Duis nec libero et est aliqua fringilla Integer fames tristique posuere mollis dolore cubilia ea turpis et Etiam nibh ullamco mollis voluptate quis cubilia et Excepteur volutpat leo id cillum mollis Curabitur ultrices ornare malesuada vulputate primis Pellentesque"
+    },
+    {
+      "id": "f2fcdf13976742045cf79607657a41b2",
+      "name": "Health & Wellness Expo",
+      "location": "Chicago, IL",
+      "date": "2024-10-20",
+      "time": "09:00 AM",
+      "tags": [
+        "Health",
+        "Wellness",
+        "Exhibition"
+      ],
+      "image": "https://picsum.photos/300/200?random=6",
+      "artist": "Emily Davis",
+      "price": 300,
+      "description": "libero netus nostrud morbi in ut mollit lacus fames libero suscipit ac netus ultrices enim est qui sint laborum non et nostrud laboris ex auctor cillum consectetur sed enim velit ullamco Pellentesque Curabitur aliqua labore libero nulla quis mollis arcu ut ut nostrud id est commodo morbi fames amet sit ultrices Vivamus mollit dolore mollis libero turpis malesuada Donec cubilia auctor nec laboris Integer Nullam quis ultrices magna Lorem velit fringilla at pariatur morbi consectetur amet tempor ullamco at Vivamus at porta quis vel fringilla consequat ultrices est veniam posuere ut Integer sed erat enim dolore do sapien aliquip esse bibendum consequat nec Pellentesque fringilla senectus libero irure pariatur id ex id Etiam morbi Excepteur libero tristique sunt lectus ullamco enim tristique fringilla libero officia Vivamus Integer mollis Curabitur nec ad fermentum tincidunt do volutpat sagittis nec minim sagittis Pellentesque ac do ultrices leo morbi at nec est sed est egestas Sed ipsum ultrices nec nostrud Duis sed voluptate magna ut cillum minim consectetur elit dolor Pellentesque habitant nec ea in irure ad non nec velit velit nibh quis eiusmod fugiat mollis nisi veniam vel ornare sint incididunt vel id aliquip et scelerisque fermentum fringilla Nunc vel tristique Aliquam nec ac vulputate Curabitur dolore sit volutpat vel auctor magna sagittis ex est ex malesuada ipsum consectetur massa do netus nec consectetur libero fames enim tincidunt ultrices ornare Vivamus lectus magna malesuada laborum cubilia senectus non fames et Pellentesque ea occaecat dolore cillum et Vestibulum aute id Vestibulum Curabitur luctus nec netus magna primis enim senectus et vestibulum ad ornare orci vel in anim magna aliqua ex vehicula massa suscipit ultrices vel tristique ipsum elementum egestas scelerisque ornare voluptate dolore tincidunt suscipit dolore Duis nulla leo non ornare malesuada vestibulum habitant Nunc in et scelerisque orci ultrices habitant Nullam ultricies egestas libero nec vel dolore magna lectus libero reprehenderit turpis Duis at reprehenderit qui lacus proident irure erat faucibus laboris do voluptate veniam sagittis enim nulla est vestibulum lacinia deserunt ad et culpa pharetra senectus velit faucibus eiusmod Sed eu consequat nunc et mollis enim Ut fringilla ipsum morbi luctus est vulputate in est mollit turpis dolore netus tristique pariatur eu cupidatat fames mollis Fusce quis morbi Pellentesque sapien bibendum elementum magna elit facilisis irure habitant nisi aliquip mollit esse in veniam elit commodo vestibulum deserunt nulla vel quis Praesent ea aliqua netus et dolor amet Duis tempor sit ultrices Vivamus deserunt senectus Vestibulum amet pariatur"
+    },
+    {
+      "id": "883570448bc0ce3a29a63480afb446a1",
+      "name": "Comedy Night",
+      "location": "Las Vegas, NV",
+      "date": "2024-09-12",
+      "time": "08:00 PM",
+      "tags": [
+        "Comedy",
+        "Live",
+        "Entertainment"
+      ],
+      "image": "https://picsum.photos/300/200?random=7",
+      "artist": "David Miller",
+      "price": 450,
+      "description": "incididunt Fusce netus in morbi Praesent velit auctor eiusmod erat Ut consectetur ipsum mauris Etiam ut velit ac tristique id tincidunt Pellentesque commodo et Integer velit ac Ut enim lacus morbi suscipit ante porta Vestibulum porta fringilla bibendum Duis Praesent ullamco pharetra amet et pariatur irure dolore Integer auctor sint in deserunt ut velit vestibulum nulla ultrices ante occaecat turpis netus habitant culpa vestibulum Duis ex tristique porta morbi esse malesuada deserunt consectetur ac velit fames Praesent ultrices reprehenderit occaecat eiusmod Nunc in netus Integer in vestibulum Pellentesque senectus senectus nec tristique proident non Vestibulum sagittis amet fringilla labore et auctor egestas Etiam ultrices ut sed vehicula tristique libero eu Nunc fringilla elementum elementum Vivamus posuere libero ipsum vehicula habitant enim in vehicula nulla habitant at aliquip fames habitant vestibulum mollis cubilia aliqua ut suscipit ut cillum vulputate Aliquam consectetur et ad Sed et lacus anim malesuada senectus Duis dolor ad Nullam malesuada enim in eu culpa sit consectetur fames fringilla morbi nec Duis Curabitur consectetur et reprehenderit lacinia occaecat tristique Ut quis consequat Pellentesque labore ut ac Aliquam et lectus ultrices erat suscipit cubilia aliquip ullamco laboris tempor netus Aliquam ut malesuada eiusmod adipiscing volutpat suscipit est est occaecat volutpat posuere aliquip mollis dolor nulla massa mollis Sed sagittis turpis mollit fames do et vulputate culpa fames tristique ultrices turpis ex at morbi libero ultrices turpis cupidatat cupidatat Ut veniam netus ultrices in Duis qui enim mauris senectus sunt egestas amet fringilla elementum consectetur occaecat sit est enim malesuada lacinia laborum eu orci velit ex ad sagittis Pellentesque fringilla et cupidatat ut proident incididunt exercitation adipiscing senectus senectus senectus tristique consectetur ultrices tempor nostrud ex non turpis Praesent nisi ipsum cupidatat dolore vel est Pellentesque ultricies at primis id et aute volutpat libero tristique sit sagittis auctor ut ornare consequat Aliquam cupidatat ut sagittis Pellentesque ullamco orci"
+    },
+    {
+      "id": "bd6e27c72770ae63a89b2bfeb4262e91",
+      "name": "Film & Documentary Festival",
+      "location": "Seattle, WA",
+      "date": "2024-11-15",
+      "time": "03:00 PM",
+      "tags": [
+        "Film",
+        "Documentary",
+        "Festival"
+      ],
+      "image": "https://picsum.photos/300/200?random=8",
+      "artist": "Sophia Wilson",
+      "price": 550,
+      "description": "est officia minim fames ex amet volutpat fermentum scelerisque Nullam officia est Fusce ea malesuada posuere faucibus mauris luctus minim nec nec libero Fusce elit Curabitur sed elementum mauris et mollis Aliquam dolor enim lacinia est lacinia nec sagittis erat vulputate ac aliquip labore justo Nullam leo deserunt voluptate sint erat adipiscing cupidatat pariatur ultrices libero cupidatat nostrud nec aliquip quis ea lacinia in libero est esse non ultricies do ex Etiam qui vel sagittis laborum Ut ornare Vivamus vulputate eu fames eiusmod sit primis dolor voluptate ut eu cubilia sint nec sit Vivamus Sed Curabitur consectetur nec in eu senectus magna veniam netus libero minim ac habitant aliquip in fringilla primis Nullam exercitation at vel ac in libero sagittis do vel turpis aute laboris elementum turpis volutpat amet et tempor turpis dolor consectetur adipiscing sit velit et ornare est vehicula ut ut faucibus officia leo Excepteur justo sit est ultrices in fringilla ad Donec malesuada egestas sunt faucibus nec Ut sit tristique Curabitur sit mollit et incididunt do Praesent officia eu lacinia sagittis commodo Curabitur facilisis Ut Integer culpa et aliqua sagittis cupidatat Ut bibendum lacinia cillum ut faucibus nec quis deserunt et Praesent anim in ornare quis posuere nec ac do volutpat egestas nec nisi libero est dolore dolore turpis lectus fugiat et volutpat malesuada facilisis mollit sunt Vivamus luctus est ut amet sit eu id fugiat morbi luctus sagittis nunc ac in laborum est dolor labore Ut malesuada irure Praesent ut officia et est Vivamus et cillum do senectus quis pariatur turpis facilisis quis enim dolore mollis luctus tincidunt pellentesque Vestibulum est libero sapien senectus est in esse in vulputate adipiscing aliquip et ac velit vestibulum ac libero nec egestas consectetur eu vehicula Donec pharetra voluptate Vivamus egestas sit ultrices velit do leo magna enim id exercitation sagittis consectetur ut quis quis voluptate non egestas ullamco tristique senectus consectetur ultrices posuere sit deserunt ac morbi luctus qui posuere erat vel fringilla posuere est ad sint Vivamus irure Nunc et habitant velit in"
+    },
+    {
+      "id": "202a33aface82e5e1b44aa0862eae2d5",
+      "name": "Jazz Evening",
+      "location": "New Orleans, LA",
+      "date": "2024-12-10",
+      "time": "07:00 PM",
+      "tags": [
+        "Music",
+        "Jazz",
+        "Live"
+      ],
+      "image": "https://picsum.photos/300/200?random=9",
+      "artist": "Michael Clark",
+      "price": 700,
+      "description": "mollis mollis Ut dolore elit deserunt velit fermentum porta nulla ante laboris ultrices consectetur est Praesent nostrud amet enim Aliquam nunc Aliquam libero Lorem pariatur Donec Praesent netus sagittis do consectetur curae dolore vulputate volutpat mollis elit veniam elementum voluptate scelerisque fugiat Aliquam fames laboris turpis morbi quis velit et volutpat ultrices cillum malesuada Ut exercitation occaecat est pharetra tristique Fusce quis posuere mauris dolor nec mollit dolore Pellentesque ac sit irure est magna ut et pharetra consequat dolore eiusmod proident nec in et volutpat Vestibulum faucibus Vivamus quis Aliquam minim in libero Fusce adipiscing do fringilla elit nisi et mollis malesuada justo ut dolor ultrices Ut enim officia auctor et et suscipit et fringilla nisi nunc dolor enim est turpis vel consectetur Etiam netus ullamco volutpat cillum fringilla sunt Praesent eu ac amet est dolore dolore id nec fringilla enim Pellentesque et nostrud sed voluptate morbi amet malesuada quis fermentum habitant mollit qui orci est labore ac dolore exercitation vel fringilla vel in quis justo consectetur quis sed turpis adipiscing libero eu malesuada exercitation ac enim fames Curabitur dolore fames et in proident Praesent auctor Donec sagittis libero porta morbi ornare habitant cillum laboris nulla ac in pellentesque dolor sagittis nostrud elit aliquip irure do turpis occaecat faucibus netus fermentum senectus sagittis libero ornare sed mollis est cupidatat Sed ut tristique Lorem Curabitur ipsum orci ac veniam et voluptate Curabitur vehicula Nunc laboris curae elit fringilla consectetur aute suscipit deserunt ac Ut dolor vel Sed consectetur laboris primis habitant Vivamus at nulla nulla elementum luctus elementum deserunt et turpis auctor Duis mollis ut Ut aliquip eu turpis nibh lectus dolore quis nibh morbi senectus commodo commodo ex libero Praesent Curabitur malesuada erat aliquip est ad vel ullamco erat mauris Etiam Nunc laboris justo massa ac vel aliqua dolore pellentesque senectus ullamco ut libero ornare labore lacus mollis habitant orci netus quis faucibus turpis id facilisis Vivamus sapien sunt Excepteur ut officia pellentesque tempor ultrices elit Ut Vivamus Praesent scelerisque eiusmod sit Duis eiusmod consectetur tincidunt sed Pellentesque et ut ac velit Etiam porta sint Nullam fermentum Pellentesque mollis mollis tristique id est arcu et anim mollit in consectetur Pellentesque ultricies in voluptate ut laboris reprehenderit auctor quis Vivamus enim nunc non tempor tristique morbi Nullam Aliquam habitant incididunt Nullam ad libero at amet mollis Vestibulum aute luctus mollit do ultricies netus id Lorem scelerisque sunt vestibulum amet anim vulputate lacinia in tempor mollit sit vehicula vehicula sed est nisi et vel"
+    },
+    {
+      "id": "0b93ffc61b7fe845d3347771583f3483",
+      "name": "Startup Pitch Day",
+      "location": "Boston, MA",
+      "date": "2024-09-30",
+      "time": "10:00 AM",
+      "tags": [
+        "Business",
+        "Startup",
+        "Investment"
+      ],
+      "image": "https://picsum.photos/300/200?random=10",
+      "artist": "Olivia Martinez",
+      "price": 950,
+      "description": "fringilla quis ac laboris Pellentesque massa cupidatat ullamco mollis mollis leo vel libero fugiat Praesent arcu netus cupidatat veniam ut dolore mollis ipsum vel aliqua libero consequat Curabitur fermentum ea turpis consectetur quis ac sit ornare do fringilla facilisis id turpis suscipit Sed aute commodo tincidunt amet vel vel do morbi fringilla dolor proident pharetra ultrices dolor nec ultrices ac Etiam tempor eiusmod Vivamus primis Pellentesque pharetra Nullam fringilla nibh netus Aliquam Excepteur deserunt ultricies mollis et lacinia nec et sagittis eu luctus vulputate laborum reprehenderit non est ornare ipsum lacinia Ut velit et et Ut vestibulum Ut nunc dolor tristique anim turpis Praesent morbi Fusce egestas dolore in eu velit deserunt officia libero sagittis fringilla eu in lectus Vivamus sapien id fermentum at veniam tristique mauris volutpat vel libero vel Etiam vel labore eu scelerisque proident turpis velit est eu netus habitant consectetur sapien proident libero adipiscing in aliqua Praesent ac Integer proident fames malesuada labore morbi incididunt et est Fusce consectetur ultricies Aliquam laboris bibendum cupidatat consectetur habitant vel enim vel est sagittis morbi qui est est deserunt Vivamus ornare senectus Ut deserunt mauris ipsum massa Integer consequat do tristique ut eu in curae sed est eu ultrices fringilla scelerisque est volutpat fames ipsum Aliquam massa et nec id ex ut et malesuada nunc leo vestibulum ornare cubilia senectus occaecat sit minim amet consectetur morbi faucibus massa sapien faucibus ornare dolor incididunt aliqua aliquip at Fusce dolor lectus exercitation suscipit bibendum ut nunc enim cupidatat elementum nec tincidunt voluptate vehicula netus nostrud sagittis fames mauris Integer lacinia irure tristique mollis reprehenderit sagittis orci sit fermentum proident fames enim curae aute est turpis luctus et commodo fringilla consectetur suscipit proident Ut proident bibendum luctus exercitation libero aliqua aliqua ipsum cubilia ut netus morbi nibh elementum scelerisque Aliquam nisi est in pharetra sit vel Nunc curae pharetra velit sunt nostrud nostrud dolor Praesent egestas lectus proident fames netus"
+    },
+    {
+      "id": "6d954db0d0cf9bcbba409b62b78da237",
+      "name": "Marathon for Charity",
+      "location": "New York, NY",
+      "date": "2024-11-20",
+      "time": "06:00 AM",
+      "tags": [
+        "Sports",
+        "Marathon",
+        "Charity"
+      ],
+      "image": "https://picsum.photos/300/200?random=11",
+      "artist": "James Lee",
+      "price": 120,
+      "description": "irure id pariatur sit sapien ante enim habitant Excepteur laboris vehicula nec voluptate aliquip mollis consectetur exercitation minim at malesuada Fusce est in egestas fugiat tristique tristique Etiam eu consectetur qui posuere consectetur ultrices esse eu ad mauris sed faucibus adipiscing vehicula tristique massa ac ipsum elementum ultrices labore officia fames turpis nec nec sit vel culpa libero turpis officia lectus veniam lacinia et lacus in et officia ullamco consequat non elit posuere volutpat nibh et quis pellentesque qui sagittis exercitation senectus ornare lacus elit nulla cillum amet nec malesuada laboris qui at elementum labore velit auctor orci enim in at pellentesque ex malesuada tempor in at erat et et id et ornare amet sapien laboris consectetur occaecat curae lectus habitant vulputate ad curae nulla nulla primis tristique sagittis culpa sint Aliquam sunt nostrud dolore reprehenderit Integer dolor et officia fringilla et Nunc cillum cillum egestas Ut incididunt Pellentesque fringilla sit Pellentesque fames nec amet nec massa quis laborum tristique Sed fringilla commodo porta adipiscing malesuada eiusmod laborum netus ipsum est veniam Vivamus laboris sagittis facilisis mollit amet volutpat minim occaecat aute enim egestas pellentesque magna id exercitation et vel senectus ut est nostrud enim malesuada ut in sint laboris nulla deserunt Ut vel dolor incididunt tristique adipiscing nostrud occaecat elementum nostrud voluptate Curabitur est elit nostrud dolore netus eu sagittis officia mollit mollit nec tristique in fringilla ornare ipsum ac Sed ultrices vulputate veniam lacinia ut adipiscing pellentesque ipsum eu turpis lacus consequat cubilia ut nulla aliquip aliqua Excepteur exercitation fugiat volutpat officia scelerisque in ipsum arcu est libero eu cupidatat ultricies dolore et eu et facilisis ut elit mollis ad amet tristique qui Curabitur dolore nulla Excepteur ut ultrices sed luctus sunt magna arcu qui enim et Praesent et ullamco consequat luctus est Lorem posuere proident mauris ornare et fringilla sagittis ex sapien lacus pellentesque et erat occaecat habitant vel Lorem tristique ipsum in sapien nec et adipiscing nec aliqua adipiscing at laboris habitant nulla elementum at tincidunt Integer sed morbi Ut Curabitur libero libero officia aute Ut netus vel ornare Lorem lacinia ac senectus porta Vivamus libero nostrud ipsum ipsum consectetur fermentum nunc ipsum et nulla est est fringilla senectus luctus sagittis vel vestibulum tristique turpis faucibus fermentum netus egestas orci faucibus primis sit in nec laborum in netus vel ultricies arcu orci mollis proident mollis nostrud nibh libero vestibulum Pellentesque in et non sed"
+    },
+    {
+      "id": "2c43e6f6d345ea72148bb5b8057e1e25",
+      "name": "Tech Talk Live",
+      "location": "San Francisco, CA",
+      "date": "2024-10-05",
+      "time": "05:00 PM",
+      "tags": [
+        "Technology",
+        "Talk",
+        "Live"
+      ],
+      "image": "https://picsum.photos/300/200?random=12",
+      "artist": "Sophia Gonzalez",
+      "price": 700,
+      "description": "aliqua libero Aliquam consectetur velit arcu malesuada velit orci enim labore auctor cubilia fugiat eu occaecat labore aute ipsum enim ultricies velit et habitant aliqua Sed ad nec Pellentesque mollis Integer Curabitur est vel Praesent Integer labore Praesent sagittis qui sint elit lectus ut Pellentesque egestas adipiscing sapien Fusce laborum culpa sapien Praesent ac voluptate curae quis et malesuada netus vel elementum egestas Praesent malesuada est irure arcu morbi erat nec malesuada Fusce sint orci magna et tristique consectetur nunc laboris et Vivamus aute bibendum labore Duis Aliquam est auctor Praesent Ut in vel nulla et morbi occaecat turpis bibendum veniam et libero fames libero cupidatat Curabitur lacus Vivamus Vivamus consequat et dolore labore et labore Vivamus tristique auctor dolor Praesent at cupidatat ut consequat culpa nunc sed ornare ea habitant luctus consectetur malesuada ea ad id malesuada sint auctor turpis ultrices justo primis habitant ullamco nulla consequat et velit netus malesuada libero habitant ea netus malesuada reprehenderit posuere enim volutpat justo occaecat libero tempor facilisis proident culpa dolor pellentesque arcu ornare sagittis enim lacus netus ultrices ipsum ac ad ultrices curae egestas pellentesque curae Praesent eu turpis proident ullamco enim fames est ornare vestibulum Aliquam morbi arcu fringilla justo tristique esse luctus sapien nec faucibus id consectetur mollit massa fermentum pariatur habitant Vivamus irure nunc amet aute minim vestibulum dolore senectus in netus vehicula ac mollis est scelerisque pharetra sed id Vestibulum occaecat Fusce sed habitant curae ac porta nulla ultrices consequat adipiscing dolor pellentesque nisi posuere enim fringilla netus ad irure Sed primis nostrud elementum nulla lacinia turpis ante vulputate incididunt scelerisque occaecat labore fugiat irure enim est consectetur ornare orci laboris irure elit nunc volutpat aliqua Curabitur volutpat habitant labore lacus et ex faucibus vestibulum incididunt eu mollis vulputate enim nisi adipiscing Pellentesque ut fames et eu bibendum Etiam nunc Vestibulum fermentum ante lacus consequat malesuada bibendum dolore libero et amet occaecat scelerisque ut qui fermentum Nunc senectus nunc Excepteur magna Vestibulum ex deserunt lectus primis turpis sed libero enim ullamco et ad ut Nunc malesuada pharetra justo et scelerisque irure nulla auctor minim et consectetur Curabitur vestibulum curae do sit vel ac proident vel fames ac pharetra Curabitur culpa aute in nec ipsum ex scelerisque Praesent et leo est amet curae pharetra ad consequat vel auctor exercitation senectus dolor et non ultricies laborum quis fermentum mollis ultrices sagittis"
+    },
+    {
+      "id": "617727c0ee5af142207d27d54444a03e",
+      "name": "Classical Music Concert",
+      "location": "Vienna, Austria",
+      "date": "2024-10-22",
+      "time": "07:30 PM",
+      "tags": [
+        "Music",
+        "Classical",
+        "Concert"
+      ],
+      "image": "https://picsum.photos/300/200?random=13",
+      "artist": "Sebastian Wagner",
+      "price": 480,
+      "description": "justo libero mollis et posuere libero Aliquam est egestas ultrices sed ante sagittis sint volutpat egestas fugiat ullamco ipsum et vel dolor cillum dolor Praesent cillum Praesent egestas esse eiusmod et faucibus libero Etiam at et ac Vivamus aliqua et ultrices faucibus ultrices Vivamus vel mollit mauris sed adipiscing netus Aliquam malesuada in Vivamus sit habitant incididunt ultrices pariatur morbi turpis turpis habitant Pellentesque curae enim quis vulputate eiusmod ut libero aliqua Vestibulum in suscipit nulla morbi ut malesuada libero Integer ac nisi malesuada cupidatat sagittis et lacinia sunt non libero netus senectus sed ut posuere nisi pariatur et mollit nulla faucibus mollis enim nibh qui Integer esse nec Praesent est libero amet vel primis laborum justo pellentesque consequat egestas mauris in eu leo bibendum in libero fames in aliqua ultrices aliqua amet nunc aliquip et lacinia nec tincidunt et pariatur pellentesque justo fringilla Lorem elit morbi auctor ex tristique Donec nostrud mollis dolore et in ut pellentesque eiusmod sint est dolor faucibus fermentum et exercitation pharetra in cillum sagittis reprehenderit morbi vestibulum Aliquam Duis et est fames pellentesque dolor primis tincidunt cupidatat Etiam vel Praesent sit tempor dolore habitant mollis qui faucibus qui nostrud dolor nulla nulla Etiam voluptate labore suscipit cupidatat velit tristique Integer erat fringilla libero curae elementum dolor sunt lacinia fugiat proident Lorem commodo Integer in sit netus Ut id ipsum malesuada malesuada in volutpat Fusce morbi dolore malesuada Nunc ipsum ex nec sapien quis occaecat turpis libero consectetur officia consequat erat egestas et incididunt labore suscipit ipsum fames at elit occaecat deserunt aute ad Fusce orci ipsum mauris sagittis sagittis libero Ut erat fames nulla cillum auctor Nunc nec massa in exercitation ut ac id sint aliqua veniam sagittis nisi fermentum habitant mollis consectetur sagittis tincidunt vulputate vel et Sed Ut consequat tristique id turpis tristique nunc in quis consectetur et sunt enim ac laborum netus elementum scelerisque magna vestibulum ante curae irure et scelerisque dolor et et Lorem elit occaecat et mauris est leo nibh fringilla suscipit ut labore ipsum ut habitant est Praesent fermentum ac quis Fusce pharetra sapien irure turpis leo vulputate Ut adipiscing et habitant nec deserunt officia nec curae"
+    },
+    {
+      "id": "3ea0ec4a57c79d684111ae988773820a",
+      "name": "Winter Art Fair",
+      "location": "Toronto, Canada",
+      "date": "2024-12-05",
+      "time": "09:00 AM",
+      "tags": [
+        "Art",
+        "Fair",
+        "Winter"
+      ],
+      "image": "https://picsum.photos/300/200?random=14",
+      "artist": "Lily Thompson",
+      "price": 300,
+      "description": "primis fermentum Fusce vel ac curae mollis ultricies Sed consequat tristique tincidunt id lacus justo eiusmod arcu elementum habitant orci sint tincidunt ultrices ac faucibus libero incididunt lacinia vel qui fringilla auctor Nunc non eu in Curabitur nostrud malesuada cupidatat velit nec cubilia nunc Vivamus ut nec mollis Vestibulum ex erat at laboris Sed consectetur enim lacus ultrices voluptate in quis dolor sapien est nec sed enim vel sagittis suscipit amet tincidunt morbi consectetur dolor egestas ornare nisi mollis libero Duis adipiscing bibendum lacinia est enim tristique ac veniam Fusce amet cillum massa habitant enim occaecat egestas turpis exercitation in dolor dolore eu Praesent justo Praesent ullamco Vestibulum egestas et senectus nulla ac id cupidatat Duis porta consequat enim deserunt voluptate nulla enim in et sagittis massa primis vel libero eu proident fames vestibulum morbi quis culpa mauris turpis elit ac consectetur et habitant nec nulla deserunt elementum tristique scelerisque eu nibh Praesent exercitation habitant Sed lectus porta eu Vivamus lacinia consequat nec pellentesque nibh laboris Lorem est fames anim Vivamus ad Nunc et Vivamus Lorem libero ut ut vulputate elementum habitant eu consequat ac lectus in qui fermentum mollis culpa elementum sagittis ultrices amet fugiat ipsum ultrices in aliqua Integer arcu ut et Lorem do id est fames et proident nulla tempor libero cupidatat Ut commodo quis netus ipsum commodo Praesent libero at amet velit porta tristique est est vestibulum tempor Lorem mollis Nunc in egestas ad nec ornare ornare ornare fringilla fringilla vel est nostrud dolore libero ut massa magna adipiscing netus ut reprehenderit arcu id in ut habitant arcu aliqua auctor Vivamus pharetra Curabitur bibendum leo sit id pellentesque malesuada malesuada ac sagittis consequat libero consequat vehicula nec fugiat aliquip mauris Curabitur senectus libero primis sunt sunt malesuada mollis anim cillum dolor et Integer quis ut sint magna cubilia Praesent Integer Etiam et eu ornare id occaecat habitant fringilla et Nunc id in consectetur consequat ultricies amet porta Etiam ac aliquip Duis Nullam ullamco Duis commodo tristique libero Etiam reprehenderit ultrices senectus ut est egestas suscipit est nunc esse ultrices bibendum facilisis velit ipsum nec Vivamus porta in eiusmod"
+    },
+    {
+      "id": "39f4a6d4b889a21b8deee8e0a680f874",
+      "name": "Yoga Retreat",
+      "location": "Sedona, AZ",
+      "date": "2024-09-18",
+      "time": "08:00 AM",
+      "tags": [
+        "Health",
+        "Wellness",
+        "Yoga"
+      ],
+      "image": "https://picsum.photos/300/200?random=15",
+      "artist": "Isabella Hernandez",
+      "price": 950,
+      "description": "est mollit ultrices fermentum nunc ipsum erat consectetur Nunc Integer fames pariatur est bibendum egestas aliqua consectetur et velit non laborum Fusce habitant id suscipit at nibh velit est nostrud velit qui id Praesent deserunt senectus est et ut Etiam orci leo mollit tristique est habitant consectetur culpa egestas et libero sagittis ornare ultrices curae nibh voluptate ex aliquip ex do nunc non Nunc posuere et Vivamus fringilla nulla consectetur Excepteur arcu tincidunt ut libero malesuada tristique ultrices nec ipsum luctus laborum Nunc fermentum fringilla porta tempor posuere est leo ut dolor veniam cillum primis at id Curabitur id faucibus fermentum ad ultrices sed netus fugiat ullamco fringilla sit nec consectetur vehicula elementum et adipiscing leo ultricies ornare Integer ullamco nulla et nunc cillum sapien et egestas habitant consectetur id ullamco Integer esse vel libero ipsum Fusce consequat malesuada cubilia lacinia suscipit laboris mollis elit dolor ornare id tempor et Nullam Curabitur in posuere Aliquam tempor sit ultrices amet qui anim suscipit dolor leo sunt netus vulputate lacus laborum ut nec Vivamus et magna erat veniam Curabitur cupidatat vestibulum ut sunt morbi ut in dolor et tristique luctus ac ut et facilisis Donec officia fringilla dolore libero sunt Vivamus curae irure morbi pharetra irure at in Nullam nec malesuada ipsum elementum mollit lectus ad justo Vivamus culpa sapien Pellentesque Praesent vestibulum et dolore tempor eu voluptate sapien culpa justo vehicula cillum cubilia habitant ac fames eu eu libero id malesuada magna ornare nec amet Duis libero et aliquip magna senectus et aute morbi culpa est sed et scelerisque Ut Nunc et Etiam leo id dolor in habitant tincidunt laborum lacus netus lectus dolore Pellentesque porta laboris in enim turpis do enim enim justo dolore vel Excepteur enim et sed in nisi egestas fames Etiam magna commodo in sed lacinia quis ultrices et et nulla fugiat fermentum tempor Ut aute et nulla elementum malesuada cupidatat labore malesuada do et sed tincidunt velit mollit lectus facilisis leo velit aute Fusce consectetur massa Pellentesque tristique incididunt sunt dolor habitant incididunt in dolor in aute malesuada cillum Excepteur vel Nullam in Lorem erat nulla"
+    },
+    {
+      "id": "0590d2ba3a568c56a2acdb0368cbf940",
+      "name": "International Book Fair",
+      "location": "Frankfurt, Germany",
+      "date": "2024-10-17",
+      "time": "09:00 AM",
+      "tags": [
+        "Books",
+        "Literature",
+        "Fair"
+      ],
+      "image": "https://picsum.photos/300/200?random=16",
+      "artist": "Gabriel Schmidt",
+      "price": 380,
+      "description": "vel in cupidatat pariatur ultrices labore Praesent magna nulla morbi vel ultrices volutpat Lorem Duis anim morbi ante quis id faucibus Integer qui suscipit velit Vivamus Vivamus facilisis posuere cupidatat et vel ultrices erat fugiat aliquip id cubilia cillum ea dolor consequat fames id ante lectus sit ea sit veniam sint et cubilia Nullam et nec velit erat fermentum curae proident lectus Vivamus Fusce egestas ultrices malesuada et cubilia nec nec faucibus in quis ut ex non turpis id minim vestibulum enim qui eiusmod dolor et ut nostrud ac libero velit est reprehenderit morbi et ultrices in sagittis mauris sint Praesent et ornare et nibh Pellentesque nec suscipit Vivamus ultrices malesuada ornare sit senectus ultrices Pellentesque in consectetur magna Donec cubilia est in est et ut sed irure sapien arcu vel enim Pellentesque sagittis libero senectus qui aliqua vel cillum ac qui netus aute et nec Praesent habitant et malesuada culpa cupidatat enim labore netus volutpat enim sint sagittis ac primis Vestibulum habitant arcu fringilla eiusmod vestibulum volutpat faucibus ultrices elementum scelerisque luctus Vestibulum cupidatat minim enim ad nulla tristique lectus netus Curabitur habitant sint magna ultrices qui Praesent ultrices dolore Pellentesque libero ultrices ac ea vestibulum fringilla volutpat vel pariatur id ea exercitation ea culpa orci in tristique in consectetur auctor sed porta massa senectus nec vulputate vel nec velit leo curae aliqua fames ultrices occaecat ultrices ea senectus posuere Aliquam et ac cupidatat laborum sit ornare vulputate ipsum anim Lorem curae lacus malesuada ac qui nostrud ut Praesent auctor incididunt mollis Integer curae Curabitur lacinia cillum netus ultrices bibendum fames egestas id elit massa esse tristique turpis fermentum enim est dolore lacus ipsum et commodo velit non consectetur tristique luctus deserunt anim est do ultrices vehicula morbi est in fugiat nec vel nibh quis do erat at tempor posuere non et eu turpis laborum laboris ultricies nec senectus turpis sint ornare in netus pariatur minim enim consectetur cupidatat cubilia cillum Ut sagittis et Lorem et ac habitant eu id ultrices turpis ornare eu et magna vulputate Ut ac est consequat nisi sit vel at"
+    },
+    {
+      "id": "db594abf473eb22bb205876cd8c481e5",
+      "name": "Halloween Parade",
+      "location": "Salem, MA",
+      "date": "2024-10-31",
+      "time": "07:00 PM",
+      "tags": [
+        "Holiday",
+        "Halloween",
+        "Parade"
+      ],
+      "image": "https://picsum.photos/300/200?random=17",
+      "artist": "Charlotte King",
+      "price": 110,
+      "description": "fringilla vel enim Praesent cubilia aute massa tristique est ultrices leo Excepteur ultrices veniam ultricies proident cupidatat dolor est mollis posuere fames Lorem netus nunc erat est occaecat Aliquam porta primis anim Donec anim morbi commodo amet est exercitation laboris ultrices et in adipiscing turpis est consequat mollit et deserunt primis posuere est fermentum sed sagittis tristique Excepteur tempor malesuada libero morbi ipsum libero tincidunt facilisis morbi ac sit id tristique faucibus ultrices reprehenderit ac Praesent luctus posuere ac Ut dolore velit in ultrices morbi ut ornare ullamco ornare ac senectus auctor nostrud auctor dolor nisi ac elementum in Pellentesque netus ipsum Donec sagittis fringilla fringilla velit malesuada justo amet Donec elementum facilisis lectus suscipit anim sint cubilia cupidatat morbi ultrices nec habitant Praesent et et erat malesuada velit Aliquam malesuada luctus est volutpat aute id eu nec commodo magna ac ut ornare magna vulputate officia consectetur eiusmod auctor ante esse Ut malesuada habitant nec Pellentesque laboris amet culpa fringilla consectetur veniam Ut leo sit facilisis netus quis morbi ex sint deserunt sed et suscipit facilisis in Nullam occaecat libero consectetur vel Integer auctor magna Praesent officia morbi vehicula Duis do luctus mollis eu et occaecat pharetra velit lacus vel fringilla cubilia arcu eiusmod consectetur libero ut magna scelerisque anim Lorem turpis sapien Excepteur Nunc esse Duis volutpat nulla nulla volutpat fringilla Praesent enim morbi pharetra exercitation et erat tristique netus ipsum magna sint consectetur luctus faucibus curae enim luctus pellentesque nulla turpis lectus ornare Vivamus nulla et commodo sed Vestibulum sapien non ornare esse laboris sed velit mauris exercitation vehicula Etiam Etiam fugiat elementum vel officia lectus non facilisis ac ante ultrices aliquip in nulla Nunc luctus irure luctus magna vehicula voluptate ultricies et lacus qui volutpat qui enim Vivamus voluptate dolore Vivamus sed et Ut dolore massa vel fringilla suscipit vehicula et erat qui libero vel eu porta ullamco Donec nulla"
+    },
+    {
+      "id": "3900c99c52f1b5de295c6e2192169c75",
+      "name": "Christmas Market",
+      "location": "Berlin, Germany",
+      "date": "2024-12-01",
+      "time": "10:00 AM",
+      "tags": [
+        "Holiday",
+        "Christmas",
+        "Market"
+      ],
+      "image": "https://picsum.photos/300/200?random=18",
+      "artist": "Daniel Meier",
+      "price": 550,
+      "description": "fringilla ac culpa in tempor est Pellentesque do sunt consectetur fugiat ipsum habitant morbi exercitation libero cupidatat ad lectus et Fusce ultrices mauris tristique vel eiusmod Vivamus bibendum ultrices et enim et incididunt ultricies posuere cubilia mollis consequat nec ultrices ullamco est adipiscing dolore Vivamus faucibus lacinia facilisis non Vestibulum in bibendum ornare netus elementum Vivamus consequat libero id deserunt et est Praesent Duis sit ipsum quis deserunt ac senectus reprehenderit est ultrices reprehenderit ipsum est senectus fugiat et quis sapien Fusce egestas et magna auctor minim proident habitant enim Sed consectetur in netus commodo mollis qui est lacinia sagittis Praesent morbi consectetur luctus sapien Fusce amet mollis ex luctus aliqua Pellentesque qui magna veniam libero Pellentesque fames est morbi libero sit ultrices incididunt cupidatat proident in tincidunt qui leo irure libero habitant justo nibh et nisi aute eu Duis libero libero cillum Aliquam lacus et bibendum veniam ut ultrices ut Donec amet sed enim tempor mollis ultrices netus sit adipiscing Nullam cillum dolor irure deserunt ac mollis vulputate est malesuada Vivamus enim cupidatat ornare ut tincidunt fermentum quis Etiam incididunt morbi amet consectetur incididunt anim fringilla ultricies libero lacinia proident ac mollis lacus ultrices fermentum arcu enim in nostrud morbi nibh nisi proident sapien Donec pariatur Praesent libero velit fames ad vestibulum deserunt ipsum lectus primis tristique tristique veniam Pellentesque sit dolor tristique sapien Praesent consequat egestas velit Nunc at Nunc amet incididunt consectetur ea senectus libero est sagittis fames aute faucibus est sapien officia cubilia et tristique ipsum ornare est lectus egestas Pellentesque in Fusce malesuada lacinia est ut ea auctor leo id suscipit sapien sagittis justo habitant et Vestibulum vestibulum voluptate scelerisque sagittis enim vel incididunt incididunt tincidunt nec dolor et esse pellentesque ultrices nec Vivamus ac egestas minim sint ac consectetur ornare Praesent tristique elit officia ultrices justo Praesent pellentesque fringilla fames lacus ea dolore sagittis consequat curae nostrud fringilla esse tempor ultrices enim bibendum et primis faucibus libero"
+    },
+    {
+      "id": "29bee15c126da63c6f5067ac8af400ff",
+      "name": "New Year's Eve Gala",
+      "location": "Paris, France",
+      "date": "2024-12-31",
+      "time": "08:00 PM",
+      "tags": [
+        "Holiday",
+        "New Year",
+        "Gala"
+      ],
+      "image": "https://picsum.photos/300/200?random=19",
+      "artist": "Amelia Dupont",
+      "price": 900,
+      "description": "ut irure luctus faucibus consectetur tempor ultrices aliquip pellentesque minim morbi incididunt vel suscipit ultricies Excepteur anim turpis aute do sint orci malesuada quis ullamco mollit nec Vivamus enim dolor eu Etiam vehicula tristique Vivamus enim lacinia cubilia ut Pellentesque arcu cubilia adipiscing mauris egestas libero curae aute ex nibh Vestibulum libero tempor Donec lacus posuere esse in occaecat fames consectetur minim nostrud Etiam ultrices sint adipiscing tristique tristique sapien lacus aute anim ac consectetur in aliqua consectetur nulla ad fugiat sit amet mauris in est consequat Duis dolor scelerisque Vivamus officia minim turpis proident id dolor ac consectetur suscipit massa id reprehenderit sit nec netus ornare anim suscipit amet ad fermentum vestibulum officia vehicula primis Pellentesque malesuada Pellentesque mollis arcu do erat fermentum Praesent vulputate ultrices turpis vehicula libero Curabitur sint mauris lacinia libero id Excepteur enim arcu tempor est eiusmod consequat Ut Praesent Curabitur commodo Duis suscipit eiusmod dolore libero fames non anim ultrices justo et ac Sed nostrud suscipit tristique curae magna esse ut pharetra dolor scelerisque mollis eu est orci adipiscing Nullam elementum velit quis lectus ultrices at anim aliqua egestas incididunt ipsum vestibulum nunc elit non magna Sed libero eu est vestibulum massa nisi officia sunt elit ut Pellentesque dolore ac ut veniam commodo Ut posuere egestas pariatur Aliquam Donec malesuada eiusmod Nullam et enim qui ultrices Nunc mollis est erat mollis deserunt Integer ac mauris ultrices occaecat mollis consectetur consectetur elit erat arcu occaecat facilisis ornare aliquip auctor nulla posuere tristique massa ex malesuada libero est arcu ex malesuada aliqua et quis nec Ut id lacinia voluptate et nunc sunt do in laborum eu velit nec exercitation nunc mauris arcu suscipit fames quis libero fames et est lacus Pellentesque culpa eu consectetur Excepteur in id in et libero Etiam tristique ac ac libero eiusmod luctus sint dolore laboris eu vulputate magna quis Duis sagittis dolor incididunt consectetur nec ac aliquip eiusmod mollis Sed ac Aliquam consectetur sapien fringilla at ullamco id at non fugiat et qui luctus mollis Lorem irure tempor Vivamus laboris ac malesuada in et sagittis vehicula qui malesuada ipsum volutpat veniam est sed ultrices auctor nibh morbi senectus bibendum laborum aute tristique senectus tempor et et aute malesuada et lacinia fugiat irure commodo ipsum cillum morbi senectus esse qui vel enim adipiscing nulla Pellentesque Curabitur morbi minim ipsum incididunt netus sapien Nunc vestibulum sunt bibendum nunc ac eiusmod enim elit et consectetur ultrices ornare auctor fringilla ut Integer ornare nec bibendum est est proident orci est nisi nec bibendum vel est Praesent nec Vivamus deserunt et irure officia malesuada fugiat id ea fermentum ad labore aliqua in id dolore sunt labore ornare commodo fugiat elit culpa laboris ad minim Ut sed fringilla auctor deserunt enim fames nibh quis turpis libero dolor sagittis et malesuada sapien id"
+    },
+    {
+      "id": "847e41acd41cb88a209a3f4ea05370c0",
+      "name": "Culinary Workshop",
+      "location": "Rome, Italy",
+      "date": "2024-11-12",
+      "time": "02:00 PM",
+      "tags": [
+        "Food",
+        "Workshop",
+        "Culinary"
+      ],
+      "image": "https://picsum.photos/300/200?random=20",
+      "artist": "Marco Rossi",
+      "price": 400,
+      "description": "fringilla libero turpis massa orci auctor proident nostrud Integer enim pariatur ac nisi Duis in enim habitant anim in laboris tempor erat morbi fermentum tempor primis Donec morbi nibh laboris scelerisque incididunt commodo Lorem sit ante senectus sit sit porta deserunt primis velit sit Integer sit ac deserunt magna ea volutpat lacus et quis senectus fames quis non Fusce sit enim dolor in quis et deserunt lacus et luctus tempor turpis facilisis volutpat occaecat cillum lectus voluptate tincidunt labore ultricies ornare enim ea enim tempor dolore cillum sapien Ut id sagittis egestas non labore amet nulla esse elit ipsum est est enim fermentum non sunt in vehicula laborum mollis fames est fugiat lectus ultricies tempor senectus senectus eiusmod Fusce primis in in et consectetur reprehenderit et tristique faucibus sit nec in tristique enim malesuada senectus aute eu tristique morbi nec ornare dolore tristique fames cillum in consequat eiusmod fames pariatur facilisis dolor turpis enim nulla qui reprehenderit turpis cupidatat sagittis est leo fringilla quis ipsum labore morbi commodo velit nulla dolore habitant quis aute et ultrices in dolore ultrices elementum consectetur mollis sit Ut dolor netus faucibus egestas ut enim proident et lacus ultrices nibh libero dolore Integer Aliquam libero et consectetur minim Curabitur Duis habitant libero veniam quis fames faucibus proident consectetur nec proident sed fames faucibus eu faucibus laboris et do tristique quis dolore in exercitation nec occaecat Curabitur consequat tempor ultrices Curabitur nec lectus est orci et veniam cupidatat ad Vestibulum libero amet in vel velit ultrices scelerisque sagittis egestas auctor est auctor fringilla Integer nec nulla ut vehicula egestas cillum nostrud anim ea id pellentesque consectetur elit enim Vestibulum in egestas facilisis morbi aliqua habitant morbi nec habitant Pellentesque turpis ante senectus turpis sed incididunt est ea mollis dolore ultrices fringilla ex fugiat tincidunt netus posuere facilisis enim vel leo incididunt libero ante ullamco malesuada est fringilla Curabitur ultrices irure Donec turpis proident fermentum consequat Sed et Pellentesque arcu ultricies senectus netus pellentesque elementum vestibulum ex amet Vivamus magna Ut Donec cillum tempor ac deserunt Fusce reprehenderit vel Ut sit et amet lectus fringilla vulputate Aliquam ex elit tristique ut laboris dolor volutpat mollit netus laborum auctor incididunt Pellentesque consectetur nec velit quis turpis at irure nulla anim in sunt dolor vulputate ut primis sit pariatur et est sagittis eu Etiam nibh est mollit habitant primis cillum id Excepteur ultrices ultricies non labore faucibus qui orci faucibus"
+    },
+    {
+      "id": "a732b860bbcc28d91f805cb599e2ffb9",
+      "name": "Fashion Week",
+      "location": "Milan, Italy",
+      "date": "2024-09-21",
+      "time": "09:00 AM",
+      "tags": [
+        "Fashion",
+        "Runway",
+        "Week"
+      ],
+      "image": "https://picsum.photos/300/200?random=21",
+      "artist": "Elena Ricci",
+      "price": 750,
+      "description": "et nulla ac eiusmod quis ornare consectetur cubilia est proident in Sed morbi Aliquam qui dolor labore et habitant ut officia Praesent libero vel ultrices Vestibulum et dolor Vestibulum ac et ultrices ornare ex fugiat vel fames turpis id egestas incididunt aute voluptate laborum magna occaecat habitant consectetur Vestibulum senectus in scelerisque adipiscing eu nulla vehicula Lorem nisi vulputate habitant et magna enim cubilia ornare cillum pharetra laboris senectus in ultrices fames libero ad auctor lacinia arcu culpa faucibus laborum id arcu consectetur anim nec Integer volutpat consectetur ornare Lorem nec et Sed tincidunt est vel mollis est fermentum occaecat esse officia adipiscing non et tincidunt est culpa aliqua tristique pharetra sagittis et ipsum sunt vel Excepteur vulputate senectus Donec libero Vivamus sapien in culpa ex quis justo justo velit amet ultrices ipsum lacinia justo exercitation ultrices dolore eiusmod Ut velit ultrices sagittis reprehenderit Nunc ac Curabitur est egestas libero in et vehicula ante eiusmod id posuere bibendum at occaecat justo massa lectus Donec tincidunt ultrices ad Ut vel faucibus tristique turpis volutpat Pellentesque lacus ultrices ut qui veniam deserunt id ornare et occaecat massa dolore arcu turpis malesuada sed et adipiscing netus consectetur cubilia Praesent ultricies mollit anim aliquip voluptate veniam scelerisque est egestas est irure enim Pellentesque netus mollit esse non aliquip magna fringilla nec veniam Pellentesque vehicula veniam Donec Ut eiusmod dolor tristique Pellentesque voluptate vel culpa amet Vivamus in netus nec quis Ut vestibulum Nullam bibendum ac et est Sed Pellentesque et et Vestibulum netus ipsum aliqua et fringilla sagittis habitant irure eiusmod enim tempor egestas velit fermentum id nec Ut velit reprehenderit lectus cupidatat netus consequat egestas morbi Aliquam Pellentesque bibendum elit fames ac nunc irure primis ipsum et ut Lorem quis consectetur fugiat anim tristique luctus eiusmod curae tristique nulla quis laborum et suscipit habitant velit curae est scelerisque dolore libero enim dolor at amet est nostrud fugiat pariatur turpis consectetur dolor minim Aliquam anim cupidatat et ornare mollis luctus justo morbi incididunt lacus consectetur Fusce justo nulla et nec vel pellentesque tristique laboris sunt malesuada anim tempor erat nunc lacinia tristique Sed laboris fames Duis vestibulum facilisis sunt faucibus malesuada morbi vel minim Excepteur eu nulla et lacus pellentesque consectetur vehicula fugiat fringilla occaecat senectus bibendum velit sapien egestas tristique nostrud elit ac do ea nec Etiam nec Nunc"
+    },
+    {
+      "id": "da2523beb072dbdd8b048462f0825ed6",
+      "name": "Science Expo",
+      "location": "Tokyo, Japan",
+      "date": "2024-10-27",
+      "time": "10:00 AM",
+      "tags": [
+        "Science",
+        "Exhibition",
+        "Technology"
+      ],
+      "image": "https://picsum.photos/300/200?random=22",
+      "artist": "Yuki Tanaka",
+      "price": 320,
+      "description": "Nullam posuere dolore occaecat mollis egestas ullamco sagittis morbi consectetur cupidatat libero tristique faucibus eiusmod magna ac do ornare Integer vel justo est aute ut Donec mauris est ultricies Duis bibendum posuere libero cupidatat adipiscing turpis curae vel suscipit fugiat Ut vel ipsum eu Etiam labore sagittis dolore est vel amet Duis vulputate ultrices Pellentesque incididunt justo cubilia nec nunc vel habitant in Praesent elit Vestibulum ac dolor Vestibulum elementum do ultricies ante adipiscing lacus mollis irure esse ipsum in luctus ullamco amet habitant tristique malesuada volutpat nec ex auctor et reprehenderit aute aliquip et egestas sapien nec ex Aliquam anim turpis morbi nunc cupidatat deserunt in ipsum reprehenderit habitant ipsum ipsum est velit dolore nulla tristique enim vel sint porta sint enim nunc occaecat et fames Praesent nostrud in consectetur erat velit Nunc esse Vivamus sit turpis aliquip est ut Ut tincidunt exercitation ipsum aliquip pharetra sagittis nec nec vestibulum justo vel Ut est lacinia sit lacus consectetur ut vehicula aute lacinia ut lacus fermentum consectetur in amet culpa fugiat luctus vel magna malesuada malesuada esse nec et Praesent dolore erat malesuada enim lectus vel adipiscing habitant egestas sed culpa suscipit ipsum aliqua lectus ex Nunc lacus ex egestas in scelerisque vehicula Pellentesque lectus commodo reprehenderit lacinia arcu do consectetur Donec in scelerisque et fames aliquip nec amet elit aliquip Nullam elit erat esse cillum magna sed Lorem habitant proident eu Vivamus et Vivamus anim Praesent nulla sint non lacinia dolore lacinia et ad vel Donec Pellentesque consectetur ut do adipiscing id Nunc malesuada Vivamus nibh minim incididunt sunt in ac est nec nec ut ac anim cupidatat labore egestas auctor Integer culpa eu ornare et tincidunt nec Etiam Donec enim tristique lacinia anim Nullam qui ut consectetur velit ac amet ut porta consequat Praesent Vestibulum elementum deserunt morbi voluptate laboris in tempor tincidunt netus aliqua Vestibulum deserunt cillum habitant Aliquam velit Pellentesque posuere id habitant non est fringilla nostrud senectus Nunc Fusce mollis deserunt occaecat luctus malesuada sed orci fugiat Duis tempor anim enim ut est nunc voluptate occaecat et sit lacus Ut nec Fusce turpis non commodo fames leo ultrices egestas Aliquam mollis aute sapien tristique id ipsum at porta et Curabitur elit Curabitur in primis ipsum Aliquam nec laborum Fusce Praesent nulla in aliquip anim Nunc mauris labore arcu et malesuada anim Excepteur amet leo Curabitur nunc nibh adipiscing velit Pellentesque Duis amet tincidunt consectetur ullamco non Fusce tristique sint fringilla amet ipsum lacinia Pellentesque ut enim leo veniam posuere Vivamus quis faucibus sint vel egestas erat"
+    }
+  ],
+  "artists": [
+    {
+      "name": "John Doe",
+      "location": "New York, USA",
+      "dateOfBirth": "1970-01-01",
+      "description": "Abstract expressionist",
+      "id": 1,
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "location": "London, UK",
+      "dateOfBirth": "1980-02-15",
+      "description": "Contemporary sculptor",
+      "id": 2,
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "name": "Alice Johnson",
+      "location": "Paris, France",
+      "dateOfBirth": "1990-03-30",
+      "description": "Impressionist painter",
+      "id": 3,
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "name": "Bob Brown",
+      "location": "Tokyo, Japan",
+      "dateOfBirth": "1975-04-12",
+      "description": "Digital artist",
+      "id": 4,
+      "image": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "name": "Carlos Garcia",
+      "location": "Madrid, Spain",
+      "dateOfBirth": "1985-05-28",
+      "description": "Street artist",
+      "id": 5,
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "name": "Emily Davis",
+      "location": "Berlin, Germany",
+      "dateOfBirth": "1995-06-05",
+      "description": "Photographer",
+      "id": 6,
+      "image": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+      "name": "David Miller",
+      "location": "Rome, Italy",
+      "dateOfBirth": "1972-07-18",
+      "description": "Classical painter",
+      "id": 7,
+      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "name": "Sophia Wilson",
+      "location": "Sydney, Australia",
+      "dateOfBirth": "1988-08-21",
+      "description": "Mixed media artist",
+      "id": 8,
+      "image": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "name": "Michael Clark",
+      "location": "Toronto, Canada",
+      "dateOfBirth": "1992-09-09",
+      "description": "Graphic designer",
+      "id": 9,
+      "image": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "name": "Olivia Martinez",
+      "location": "Mexico City, Mexico",
+      "dateOfBirth": "1979-10-25",
+      "description": "Textile artist",
+      "id": 10,
+      "image": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+      "name": "James Lee",
+      "location": "Seoul, South Korea",
+      "dateOfBirth": "1986-11-11",
+      "description": "Illustrator",
+      "id": 11,
+      "image": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "name": "Sophia Gonzalez",
+      "location": "Rio de Janeiro, Brazil",
+      "dateOfBirth": "1998-12-03",
+      "description": "Ceramic artist",
+      "id": 12,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "name": "Sebastian Wagner",
+      "location": "Moscow, Russia",
+      "dateOfBirth": "1974-01-16",
+      "description": "Performance artist",
+      "id": 13,
+      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "name": "Lily Thompson",
+      "location": "Dubai, UAE",
+      "dateOfBirth": "1983-02-29",
+      "description": "Installation artist",
+      "id": 14,
+      "image": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "name": "Isabella Hernandez",
+      "location": "Mumbai, India",
+      "dateOfBirth": "1996-03-14",
+      "description": "Fiber artist",
+      "id": 15,
+      "image": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "name": "Gabriel Schmidt",
+      "location": "Shanghai, China",
+      "dateOfBirth": "1971-04-27",
+      "description": "Video artist",
+      "id": 16,
+      "image": "https://randomuser.me/api/portraits/men/16.jpg"
+    },
+    {
+      "name": "Charlotte King",
+      "location": "Cairo, Egypt",
+      "dateOfBirth": "1989-05-06",
+      "description": "Sound artist",
+      "id": 17,
+      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "name": "Daniel Meier",
+      "location": "Istanbul, Turkey",
+      "dateOfBirth": "1993-06-19",
+      "description": "Glass artist",
+      "id": 18,
+      "image": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "name": "Amelia Dupont",
+      "location": "Buenos Aires, Argentina",
+      "dateOfBirth": "1978-07-02",
+      "description": "Printmaker",
+      "id": 19,
+      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "name": "Marco Rossi",
+      "location": "Johannesburg, South Africa",
+      "dateOfBirth": "1987-08-15",
+      "description": "Metalworker",
+      "id": 20,
+      "image": "https://randomuser.me/api/portraits/men/20.jpg"
+    },
+    {
+      "name": "Elena Ricci",
+      "location": "Amsterdam, Netherlands",
+      "dateOfBirth": "1997-09-28",
+      "description": "Jewellery designer",
+      "id": 21,
+      "image": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+      "name": "Yuki Tanaka",
+      "location": "Kyoto, Japan",
+      "dateOfBirth": "1975-10-10",
+      "description": "Calligrapher",
+      "id": 22,
+      "image": "https://randomuser.me/api/portraits/men/22.jpg"
+    }
+  ],
+    "tags": [
+      { "id": 167382, "name": "Technology" },
+      { "id": 947263, "name": "Innovation" },
+      { "id": 528394, "name": "Conference" },
+      { "id": 619375, "name": "Music" },
+      { "id": 283749, "name": "Festival" },
+      { "id": 759263, "name": "Live" },
+      { "id": 374859, "name": "Art" },
+      { "id": 826394, "name": "Exhibition" },
+      { "id": 194728, "name": "Culture" },
+      { "id": 536294, "name": "Business" },
+      { "id": 917365, "name": "Networking" },
+      { "id": 284937, "name": "Food" },
+      { "id": 638492, "name": "Community" },
+      { "id": 749263, "name": "Health" },
+      { "id": 183749, "name": "Wellness" },
+      { "id": 529384, "name": "Comedy" },
+      { "id": 917364, "name": "Entertainment" },
+      { "id": 283746, "name": "Film" },
+      { "id": 628394, "name": "Documentary" },
+      { "id": 749261, "name": "Jazz" },
+      { "id": 182739, "name": "Startup" },
+      { "id": 529382, "name": "Investment" },
+      { "id": 918374, "name": "Sports" },
+      { "id": 284935, "name": "Marathon" },
+      { "id": 639482, "name": "Charity" },
+      { "id": 759260, "name": "Talk" },
+      { "id": 374857, "name": "Classical" },
+      { "id": 826392, "name": "Concert" },
+      { "id": 194726, "name": "Winter" },
+      { "id": 536292, "name": "Fair" },
+      { "id": 917362, "name": "Yoga" },
+      { "id": 283744, "name": "Books" },
+      { "id": 628392, "name": "Literature" },
+      { "id": 182737, "name": "Halloween" },
+      { "id": 529380, "name": "Parade" },
+      { "id": 918372, "name": "Christmas" },
+      { "id": 284933, "name": "Market" },
+      { "id": 639480, "name": "New Year" },
+      { "id": 759258, "name": "Gala" },
+      { "id": 374855, "name": "Workshop" },
+      { "id": 826390, "name": "Culinary" },
+      { "id": 194724, "name": "Fashion" },
+      { "id": 536290, "name": "Runway" },
+      { "id": 917360, "name": "Week" },
+      { "id": 283742, "name": "Science" }
+    ]
 }
